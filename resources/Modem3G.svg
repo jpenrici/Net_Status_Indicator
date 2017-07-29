@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3356"
+   height="22"
+   width="22"
+   version="1.0"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="Modem3G.svg"
+   inkscape:export-filename="/home/itautec/SDK/PROJETOS/Python/Proj_Pablo_Inforede/App_Indicator_Xml_Novo/recursos/Modem 3G.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1215"
+     inkscape:window-height="776"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="18.811335"
+     inkscape:cx="16.525731"
+     inkscape:cy="11.181714"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3356"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="m 8.3220127,5.6685028 c -0.07326,0 -0.135036,0.00928 -0.198365,0.048309 -0.06043,0.040534 -0.119506,0.1264725 -0.165304,0.1932412 l -0.03306,0.048311 c -0.03407,0.058962 -0.07835,0.1210158 -0.09918,0.1932415 -0.101643,0.2827196 -0.06751,0.6266117 0.09918,0.8695854 l 3.0416023,4.4445481 v 5.797236 c 0,0.428223 0.235922,0.772965 0.528974,0.772965 0.293052,0 0.528974,-0.344742 0.528974,-0.772965 v -5.797236 l 3.041602,-4.4445478 c 0.16669,-0.2429738 0.20082,-0.5868658 0.09918,-0.8695855 -0.02084,-0.072225 -0.06512,-0.1342794 -0.09918,-0.1932411 l -0.03306,-0.04831 C 14.9371,5.7709205 14.798192,5.6797107 14.669757,5.6704351 h -0.03306 -3.140837 -3.1407323 -0.03306 z m 0.1785223,0.698214 2.58317,0.029232 -0.05846,3.6863062 z m 3.465729,0.029232 h 2.495475 l -2.466244,3.7637722 z"
+     style="fill:#cccccc;stroke-width:0.89299506"
+     id="path5609"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccccccsssccccccccccccccccccc" />
+  <path
+     sodipodi:nodetypes="cccccccsssccccccccccccccccccc"
+     inkscape:connector-curvature="0"
+     id="rect3184"
+     style="fill:#4d4d4d;stroke-width:0.89299506"
+     d="m 7.8261537,5.1873322 c -0.07326,0 -0.135036,0.00928 -0.198365,0.048309 -0.06043,0.040534 -0.119506,0.1264725 -0.165304,0.1932412 l -0.03306,0.048311 c -0.03407,0.058962 -0.07835,0.1210158 -0.09918,0.1932415 -0.101643,0.2827196 -0.06751,0.6266117 0.09918,0.8695854 l 3.0416023,4.4445477 v 5.797236 c 0,0.428223 0.235922,0.772965 0.528974,0.772965 0.293052,0 0.528974,-0.344742 0.528974,-0.772965 v -5.797236 l 3.041602,-4.4445474 c 0.16669,-0.2429738 0.20082,-0.5868658 0.09918,-0.8695855 -0.02084,-0.072225 -0.06512,-0.1342794 -0.09918,-0.1932411 l -0.03306,-0.04831 C 14.441241,5.2897499 14.302333,5.1985401 14.173898,5.1892645 h -0.03306 -3.140837 -3.1407323 -0.03306 z m 0.178522,0.698214 2.5831703,0.029232 -0.05846,3.6863058 z m 3.4657293,0.029232 h 2.495475 l -2.466244,3.7637721 z" />
+</svg>
