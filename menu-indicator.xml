@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk+" version="2.24"/>
+  <!-- interface-naming-policy project-wide -->
+  <!-- Icon -->
+  <object class="GtkImage" id="icon_inform">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+  </object>
+  <object class="GtkImage" id="icon_interface1">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+  </object>
+  <object class="GtkImage" id="icon_interface2">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+  </object>
+  <object class="GtkImage" id="icon_interface_current">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+  </object>
+  <object class="GtkImage" id="icon_exit">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+  </object>
+  <object class="GtkImage" id="icon_total_down">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+  </object>
+  <object class="GtkImage" id="icon_total_net">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+  </object>
+  <object class="GtkImage" id="icon_downUp">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+  </object>
+  <object class="GtkImage" id="icon_total_up">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+  </object>
+  <object class="GtkImage" id="icon_reset_counting">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+  </object>
+  <!-- Menu -->
+  <object class="GtkMenu" id="menu">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <child>
+      <object class="GtkImageMenuItem" id="interface_current">
+        <property name="label" translatable="yes">Current interface</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="use_action_appearance">False</property>
+        <property name="image">icon_interface_current</property>
+        <property name="use_stock">False</property>
+        <property name="always_show_image">True</property>
+        <child type="submenu">
+          <object class="GtkMenu" id="other_interface">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <child>
+              <object class="GtkImageMenuItem" id="interface1">
+                <property name="label" translatable="yes">Interface1</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="use_action_appearance">False</property>
+                <property name="image">icon_interface1</property>
+                <property name="use_stock">False</property>
+                <property name="always_show_image">True</property>
+                <signal name="activate" handler="swap_interface" swapped="no"/>
+              </object>
+            </child>
+            <child>
+              <object class="GtkImageMenuItem" id="interface2">
+                <property name="label" translatable="yes">Interface2</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="use_action_appearance">False</property>
+                <property name="image">icon_interface2</property>
+                <property name="use_stock">False</property>
+                <property name="always_show_image">True</property>
+                <signal name="activate" handler="swap_interface" swapped="no"/>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="GtkSeparatorMenuItem" id="separador">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="use_action_appearance">False</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkImageMenuItem" id="downUp">
+        <property name="label" translatable="yes">Down : Up</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="use_action_appearance">False</property>
+        <property name="image">icon_downUp</property>       
+        <property name="use_stocke">False</property>
+        <property name="always_show_image">True</property>        
+      </object>
+    </child>
+    <child>
+      <object class="GtkSeparatorMenuItem" id="separador1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="use_action_appearance">False</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkImageMenuItem" id="total_net">
+        <property name="label" translatable="yes">Total_net</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="use_action_appearance">False</property>
+        <property name="image">icon_total_net</property>
+        <property name="use_stock">False</property>
+        <property name="always_show_image">True</property>
+        <child type="submenu">
+          <object class="GtkMenu" id="others_totais">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <child>
+              <object class="GtkImageMenuItem" id="reset_counting">
+				        <property name="label" translatable="yes">Reset</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="use_action_appearance">False</property>
+                <property name="image">icon_reset_counting</property>
+                <property name="use_stock">True</property>
+                <property name="always_show_image">True</property>
+                <signal name="activate" handler="reset_counting" swapped="no"/>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="GtkImageMenuItem" id="total_down">
+        <property name="label" translatable="yes">Total_down</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="use_action_appearance">False</property>
+        <property name="image">icon_total_down</property>
+        <property name="use_stock">False</property>
+        <property name="always_show_image">True</property>
+      </object>
+    </child>
+    <child>           
+      <object class="GtkImageMenuItem" id="total_up">
+        <property name="label" translatable="yes">Total_up</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="use_action_appearance">False</property>
+        <property name="image">icon_total_up</property>
+        <property name="use_stock">False</property>
+        <property name="always_show_image">True</property>
+      </object>
+    </child>
+    <child>          
+      <object class="GtkSeparatorMenuItem" id="separador2">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="use_action_appearance">False</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkImageMenuItem" id="inform">
+        <property name="label" translatable="yes">Information</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="use_action_appearance">False</property>
+        <property name="image">icon_inform</property>
+        <property name="use_stock">False</property>
+        <property name="always_show_image">True</property>
+        <signal name="activate" handler="inform" swapped="no"/>
+      </object>
+    </child>
+    <child>
+      <object class="GtkImageMenuItem" id="exit">
+        <property name="label" translatable="yes">Exit</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="use_action_appearance">False</property>
+        <property name="image">icon_exit</property>
+        <property name="use_stock">False</property>
+        <property name="always_show_image">True</property>
+        <signal name="activate" handler="exit" swapped="no"/>
+      </object>
+    </child>
+  </object>
+</interface>
