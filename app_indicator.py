@@ -51,8 +51,8 @@ except ImportError:
     sys.exit(1)
 
 # Variáveis globais
-#wlan_label = 'wlan0'  # identificação genérica
-wlan_label = 'wlx0015afa3ed5c'
+wlan_label = 'wlan0'  # identificação genérica
+#wlan_label = 'wlx0015afa3ed5c'  # exemplo específico
 eth_label = 'eth0'
 ppp_label = 'ppp0'
 local_label = 'lo'
