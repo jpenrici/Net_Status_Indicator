@@ -1,9 +1,9 @@
 # Net_Status_Indicator
 
 Show the Net Status Indicator.
-Tested on Ubuntu 14.04/17.04 and Debian 9 XFCE4.
+Tested on Debian 10 (OpenBox/tint2).
 
 # Requirements
 
-    python-appindicator
+    libappindicator3-1
     python-psutil
