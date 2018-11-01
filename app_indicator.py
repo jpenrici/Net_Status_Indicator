@@ -59,7 +59,7 @@ except ImportError:
 
 # Variáveis globais
 # wlan_label = 'wlan0'  # identificação genérica
-wlan_label = 'wlx0015afa3ed5c'
+wlan_label = 'wlx0015afa3ed5c'	# identificação específica do hardware
 eth_label = 'eth0'
 ppp_label = 'ppp0'
 local_label = 'lo'
@@ -109,8 +109,8 @@ class Indicador():
         # ['Wireless', 'Ethernet', 'Modem3G', 'Local'] = [0..3]
         list_interface = (list(interface.keys()))
         self.interface_current.set_label(list_interface[0])
-        self.interface1.set_label(list_interface[0])
-        self.interface2.set_label(list_interface[1])
+        self.interface1.set_label(list_interface[1])
+        self.interface2.set_label(list_interface[2])
 
         category = appindicator.IndicatorCategory.APPLICATION_STATUS
         self.ind = appindicator.Indicator.new("app_indicator", "distributor-logo",
@@ -157,7 +157,7 @@ class Indicador():
             self.ind.set_icon(new_interface)
 
         self.interface_current.set_label(new_interface)
-        print(("new_interface: %s" % new_interface))
+        print("new_interface: %s" % new_interface)
 
         self.notify(s="Interface changed!", m=new_interface)
 
