@@ -47,11 +47,12 @@ from threading import Thread
 # Checar Módulo Psutil (python-psutil)
 try:
     import psutil
-    version = psutil.__version__
-    if version == '5.4.6':
+    minimum = ['5', '4', '6']
+    version = psutil.__version__.split('-')
+    if version[0].split('.') >= minimum:
         print("import psutil ok...")
     else:
-        print('Error: psutil require version = 5.4.6')
+        print('Error: psutil require version >= 5.4.6')
         sys.exit(1)
 except ImportError:
     print('Error: psutil module needs to be installed!', sys.stderr)
